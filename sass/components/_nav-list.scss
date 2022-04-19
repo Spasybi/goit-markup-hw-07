@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
 }
-.nav-list-link {
+.nav-list__link {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -16,7 +16,7 @@
         color: var(--hover-focus-color);
     }
 }
-.nav-list-item {
+.nav-list__item {
     position: relative;
     &:not(:last-child) {
         margin-right: 50px;

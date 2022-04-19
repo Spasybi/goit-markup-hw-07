@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
 }
-.button-list-item {
+.button-list__btn {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -33,7 +33,7 @@
     }
 }
 
-.button-item:not(:last-child) {
+.button-list__item:not(:last-child) {
     margin-right: 8px;
 }
 

@@ -14,8 +14,8 @@
     color: #ffffff;
     transform: translateY(100%);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    .img-list-item:hover &,
-    .img-list-item:focus & {
+    .img-list__item:hover &,
+    .img-list__item:focus & {
         transform: translateY(0%);
     }
 }
